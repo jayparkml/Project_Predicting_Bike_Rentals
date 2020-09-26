@@ -6,4 +6,4 @@ First import the libraries to use and the dataset bike_rental_hour.csv which has
 Starting from exploring first 5 rows...
 ![img](/Images/1.JPG)
 Histogram has been generated to show the distribution of bike rentals in total
-![img](/Images/2.PNG)
+![img](/Images/2.png)
