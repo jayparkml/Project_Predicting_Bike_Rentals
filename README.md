@@ -2,4 +2,4 @@
 This project focus on predicting bike rentals count with machine learning using Linear Regression, Decision Trees, Random Forest.
 
 ## 1. Importing Dataset and Libraries
-
+![GitHub Logo](/images/3.png)
