@@ -31,34 +31,51 @@ Lastly, data is ready to go by dividing and assigning each hours of day to 4 bin
 ### Linear Regression with all features
 ![img](/Images/8.PNG)
 ### Linear Regression with low correlation features removed
+
 ![img](/Images/9.PNG)
+
 The error increased with features removed. Removing features did not increase the accuracy but R^2 is low to say the model is useful for prediction.
 ### Decision Tree Regressor
+
 ![img](/Images/10.PNG)
+
 Train portion shows that model is overfitted.
 ### Decision Tree Regressor with min_samples_leaf changed
 leaf number changed from between 2 to 10 to see the mean values of the models and generate the graph of RMSE
+
 ![img](/Images/11.PNG)
+
 Still the model is overfitted and there is huge difference in RMSE values.
 ### Decision Tree Regressor with min_samples_split changed
 Next step is to change the samples split value. It changed between 3 to 10 to generate the values like above.
+
 ![img](/Images/12.PNG)
+
 The RMSE value still tells us that model is overfitted. Decision tends to overfit for this problem.
 ### Random Forest Regressor
 Random forest with estimators between 10 to 100 with 5 increment is tested for the same problem.
+
 ![img](/Images/13.PNG)
+
 ![img](/Images/14.PNG)
+
 Model still looks overfitted. Next, we tried to tune the parameters as we did for decision trees.
 ### Random Forest Regressor with min_samples_leaf changed
 Used same setting for 2 ~ 10 samples
+
 ![img](/Images/15.PNG)
+
 ![img](/Images/16.PNG)
+
 ### Random Forest Regressor with min_samples_split changed
+
 ![img](/Images/17.PNG)
+
 ![img](/Images/18.PNG)
 
 ## 3. Conclusion
 ![img](/Images/19.PNG)
+
 It is clear that the Random Forest Regressor have least RMSE values. 
 In Decision Trees the experiments in the parameters helped to reduce the RMSE value, however in the Random Forest there was a slightly increase in the values. The feature selection in Linear regression did not help at all.
 Some of the models were considered overfitted (if we see the MSE and RMSE) and most of them were impossible to reduce. It's strange that the R2 scores did not show signs of overfit.
