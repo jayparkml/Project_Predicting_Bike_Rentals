@@ -14,3 +14,7 @@ Next, is to check out the correlation heat map.
 
 ![img](/Images/3.png)
 
+And, the correlation table by count
+
+![img](/Images/4.PNG)
+
