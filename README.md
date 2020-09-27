@@ -18,3 +18,8 @@ And, the correlation table by count
 
 ![img](/Images/4.PNG)
 
+With the heat map and table, cnt, registered, and casual is decided to be ignored since they derived from the target value 'cnt'.
+
+Lastly, data is ready to go by dividing and assigning each hours of day to 4 bins : Morning/Afternoon/Evening/Night
+
+![img](/Images/5.PNG)
