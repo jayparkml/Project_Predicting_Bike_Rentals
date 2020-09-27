@@ -23,3 +23,8 @@ With the heat map and table, cnt, registered, and casual is decided to be ignore
 Lastly, data is ready to go by dividing and assigning each hours of day to 4 bins : Morning/Afternoon/Evening/Night
 
 ![img](/Images/5.PNG)
+
+## 2. Error Metric
+80% of data has been used for training and remaining 20% used for testing with random_state of 1 to make sure we can get the result again. And set the training features and target value for models. We decide to check R^2, MSE, and RMSE value for validation of the data.
+![img](/Images/6.PNG)
+![img](/Images/7.PNG)
